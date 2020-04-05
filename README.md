@@ -17,7 +17,7 @@ package main
 
 import (
   "github.com/gofiber/fiber"
-  bearertoken "github.com/jozsefsallai/fiber-bearer-token"
+  "github.com/jozsefsallai/fiber-bearer-token"
 )
 
 func main() {

@@ -9,7 +9,7 @@
 //
 //   import (
 //     "github.com/gofiber/fiber"
-//     bearertoken "github.com/jozsefsallai/fiber-bearer-token"
+//     "github.com/jozsefsallai/fiber-bearer-token"
 //   )
 //
 //   func main() {
@@ -23,7 +23,7 @@
 //
 //   app.Get("/", func (ctx *fiber.Ctx)) {
 //     bearer := ctx.Locals("token")
-//     if len(bearer) == 0 {
+//     if bearer == "" {
 //       ctx.Send("Unauthorized!")
 //     } else {
 //       ctx.Send("You're in!")
